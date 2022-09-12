@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "compile:css": "sass --watch assets/scss/main.scss:assets/css/main.css",
+    "compile:bootstrap": "node node_modules/sass/sass.js -w assets/scss:assets/css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "sass": "^1.54.9"
+  }
+}
